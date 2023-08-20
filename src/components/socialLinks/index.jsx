@@ -3,6 +3,7 @@ import { Container, Content, Links } from "./styles";
 
 import {
   AiOutlineInstagram,
+  AiOutlineGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
 
@@ -34,7 +35,7 @@ const SocialLinks = () => {
   };
 
   const openGitHub = () => {
-    window.open("https://github.com/devniwan/", "_blank");
+    window.open("https://github.com/niwanbernardo", "_blank");
   };
 
   const openInstagram = () => {
@@ -44,6 +45,9 @@ const SocialLinks = () => {
   return (
     <Container scrollVisible={isVisible}>
       <Content>
+        <Links onClick={openGitHub}>
+          <AiOutlineGithub size={"38px"} />
+        </Links>
         <Links onClick={openInstagram}>
           <AiOutlineInstagram size={"38px"} />
         </Links>
