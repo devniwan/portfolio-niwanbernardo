@@ -1,15 +1,13 @@
 import React from "react";
 import Typewriter from "./typewriter";
 import { Container, Background, BackgroundFade, Content } from "./styles";
-
-const backgroundLink =
-  "https://i.postimg.cc/5tswjgx0/background-teste.gif";
+import backgroundGif from './background_niwan.gif';
 
 const Header = () => {
   return (
     <Container>
       <BackgroundFade />
-      <Background src={backgroundLink} />
+      <Background src={backgroundGif} />
       <Content>
         <span>Olá! Eu me chamo</span>
         <h1>Niwan Bernardo</h1>
