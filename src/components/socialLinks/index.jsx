@@ -31,7 +31,7 @@ const SocialLinks = () => {
   }, [scrollPosition]);
 
   const openLinkedIn = () => {
-    window.open("https://www.linkedin.com/in/niwanbernardo", "_blank");
+    window.open("https://www.linkedin.com/in/niwanbatista", "_blank");
   };
 
   const openGitHub = () => {
@@ -39,7 +39,7 @@ const SocialLinks = () => {
   };
 
   const openInstagram = () => {
-    window.open("https://www.instagram.com/devniwan/", "_blank");
+    window.open("https://www.instagram.com/niwanbatista/", "_blank");
   };
 
   return (
